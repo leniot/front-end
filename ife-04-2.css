@@ -1,0 +1,27 @@
+h1.theme{
+    text-align: center;
+    background-color: lightskyblue;
+    float: left;
+    width:15%;
+    height: 820px;
+    color: white;
+    margin:0 20px auto auto;
+    padding-top:50px;
+}
+
+.content{
+    float: left;
+}
+p.info{
+    float: left;
+    /*width:25%;*/
+    margin: auto 20px auto auto;
+}
+
+.cl{
+    clear:both;
+}
+p.contact{
+    float: left;
+    margin: auto 20px auto auto;
+}

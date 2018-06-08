@@ -1,0 +1,71 @@
+
+h1.theme{
+    width:800px;
+    background-color: #606060;
+    color: #ffffff;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top:15px;
+    margin: 0;
+}
+
+div.content{
+    /*和theme对齐：800+20 padding-left */
+    width:820px;
+    border-right: #d0d0d0 1px solid;
+    border-bottom: #d0d0d0 1px solid;
+}
+
+h2.info,h2.contact,h2.abi,h2.edu,h2.exp{
+    margin:0 auto;
+    float:left;
+    background-color: lightgray;
+    width: 200px;
+    text-align: center;
+
+    height: 60px;
+    font-size: 15px;
+    padding-top: 45px;
+    border-bottom: white solid 1px;
+
+}
+div.info,div.contact{
+    /*可以不加float，因为受左边float影响，clear后变回标准流*/
+
+    float:left;
+    /*clear: left;*/
+    height: 105px;
+
+    /*加了float，要加width*/
+    width:620px;
+    margin: 0;
+    border-bottom: #d0d0d0 1px solid;
+}
+
+p.info,p.contact{
+    float: left;
+    padding-left: 2px;
+    margin: auto 20px auto auto;
+}
+
+.cl{
+    clear:both;
+}
+div.abi-all,div.edu-all,div.exp-all{
+    height: 105px;
+    border-bottom: #d0d0d0 1px solid;
+}
+div.abi,div.edu,div.exp{
+    float: left;
+    width:620px;
+}
+p.abi,p.edu,p.exp{
+    float: left;
+    margin: 0;
+}
+
+/*p.contact{*/
+    /*float: left;*/
+    /*margin: auto 20px auto auto;*/
+/*}*/

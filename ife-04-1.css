@@ -1,0 +1,27 @@
+.theme{
+    text-align: left;
+}
+p.info{
+    float: left;
+    width:15%;
+    margin: auto;
+}
+
+.content{
+
+}
+
+.cl{
+    clear:both;
+}
+p.contact{
+    float: left;
+    width:20%;
+    margin: auto;
+}
+div.abi,div.edu,div.exp{
+    margin-bottom: 20px;
+}
+p.abi,p.edu,p.exp{
+    margin: 0;
+}
